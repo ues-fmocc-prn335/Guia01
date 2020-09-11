@@ -115,13 +115,8 @@ def converter(decimal):
 
        # '''Debido a la condición del bucle añadimos el ultimo valor a la lista para así tener la conversión completa '''    
         binario.append(cociente)
-    
-    #'''Imprimimos la lista a la cual fueron añadidos los residuos y el cociente final, para ello ocupamos un for, y utilizamos el metodo reversed'''
-    numeroBinario= list()
-
-    for i in reversed(binario):
-        numeroBinario.append(i)
-    print("\n",decimalO," base 10 = ",numeroBinario," base 2\n")
+    numFinal="".join(str(i) for i in reversed(binario))
+    print(decimalO," = ",numFinal)
 
 print("¡Hola!\n")
 menu()
