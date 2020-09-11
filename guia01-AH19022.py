@@ -7,7 +7,6 @@ def validarEntero(entrada):
            entrada = int(entrada)
            return True
        except ValueError:
-           print("\nEntrada erronea, por favor digite un numero entero\n")
            return False
 
 
@@ -49,7 +48,7 @@ def conversorDecimalBinario(numeroaConvertir):
     print("El numero convertido a binario es: ", resultado)
 
 
-opcion = validarMenu
+opcion = validarMenu()
 
 while opcion != 0:
     if (opcion == 1):
