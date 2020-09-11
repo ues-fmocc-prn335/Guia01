@@ -1,3 +1,6 @@
+#Nombre:JOSE GUILLERMO OSORIO MENDOZA
+#Carnet:OM17028
+
 def piramide():
 
     try:
