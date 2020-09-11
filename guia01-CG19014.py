@@ -1,6 +1,7 @@
 try:
     menu=int(input("Ejercicios\nIngrese el numero 1 o 2 para ver el respectivo programa\n1-Numeros Primos\n2-Niveles de una piramide\n->"))
 except:
+    #mensaje en dado caso que no haya ingresado un numero correcto
     print("Error en el numero ingresado")
     exit()
 if(menu==1 or menu==2):
