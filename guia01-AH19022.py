@@ -13,7 +13,7 @@ def validarEntero(entrada):
 def validarMenu():
     opcionvalida=False
     while opcionvalida==False:
-        numeroentrada=input("\n\nMenu :)\n1- Conversor binario a decimal \n2- Determina si un numero es primo\n3-Salir ")
+        numeroentrada=input("\n\nMenu :)\n1- Conversor binario a decimal \n2- Determina si un numero es primo\n0-Salir ")
         if validarEntero(numeroentrada):
             opcionvalida=True
             numeroentrada= int(numeroentrada)
