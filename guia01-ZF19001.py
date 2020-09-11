@@ -13,7 +13,7 @@ def primo(num):
     else:
         print("El número " + str(num) + " no es un numero primo")
 
-#Un pequeño menú
+#Un pequeñisimo menú
 print("Ingrese un valor para la función que quiere realizar")
 opcion = int(input("Obtener la media de 3 valores---presione 1" + "\n" + "Determinar si un número es primo---presione 2"+ "\n"))
 
