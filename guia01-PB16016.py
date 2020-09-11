@@ -88,6 +88,7 @@ def app():
 
         elif opcion==0 :
             break
+
         else :
             print("Dato incorrecto: Ingrese una opción correccta")
             opcion=1
